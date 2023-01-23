@@ -1,0 +1,43 @@
+.categories_container{
+margin: 50px 50px 450px 50px;
+}
+
+
+.categories_title {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-left: 22px;
+}
+
+.categories_title p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+.categories_title button {
+  border: 2px solid #8b8b8b;
+  width: 120px;
+  height: 32px;
+  text-align: center;
+  color: #8b8b8b;
+  background-color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 130%;
+  font-style: normal;
+}
+
+.categories_item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  height: 395px;
+  width: 97%;
+  left: 30px;
+  right: 30px;
+   gap: 32px;
+}

@@ -1,0 +1,22 @@
+.products_container {
+  margin-top: 91px;
+  margin-left: 30px;
+}
+.categories_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  margin-bottom: 81px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+

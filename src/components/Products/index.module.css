@@ -1,0 +1,23 @@
+.productions_container {
+    margin: 40px 35px 55px 35px;
+  }
+  
+  .productions_title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+   
+  
+  .productions_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+        
+  }
+  

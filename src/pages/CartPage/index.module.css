@@ -1,0 +1,137 @@
+.cart_page {
+  margin-top: 79px;
+  margin-left: 31px;
+}
+
+.right {
+  width: 6.6px;
+  color: #000000;
+  height: 12.61px;
+  font-size: 12.61px;
+}
+
+.cart_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.cart_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 820px;
+}
+
+.cart_header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.cart_header a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.cart_card {
+  width: 724px;
+}
+
+.cart_section {
+  display: flex;
+  gap: 60px;
+}
+
+.cart_score {
+  margin-top: 40px;
+  border: 2px solid #000000;
+  border-radius: 21px;
+  width: 496px;
+  height: 383px;
+  padding: 5px 15px 15px 15px;
+}
+
+.cart_summary h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.cart_summary div h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  width: 496px;
+  gap: 50px;
+}
+
+.submit_input {
+  font-size: xx-large;
+  width: 446px;
+  height: 73px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.submit ::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #929292;
+}
+
+.submit button {
+  width: 446px;
+  height: 73px;
+  background-color: #339933;
+  border-radius: 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.error {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  align-self: flex-end;
+  left: 1000px;
+  top: 670px;
+}
+
+.sum {
+  display: flex;
+  gap: 260px;
+  align-items: center;
+}
+
+.sum p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}

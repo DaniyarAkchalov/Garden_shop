@@ -1,0 +1,55 @@
+.promotion_card {
+  text-decoration: none;
+  color: black;
+}
+.promotion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+.promotion p {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.promotion img {
+  width: 320px;
+  height: 350px;
+}
+
+.title {
+  width: 283px;
+  height: 21px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #3a3a3a;
+}
+.discont_price {
+  width: 109px;
+  height: 39px;
+
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #3a3a3a;
+}
+.discount {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #ff32a1;
+}
+
+.price_text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

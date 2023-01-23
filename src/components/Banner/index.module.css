@@ -1,0 +1,50 @@
+.banner_section {
+  background-color: #a1e2eb;
+  display: flex;
+  justify-content: space-between;
+  font-size: 80px;
+  line-height: 130%;
+  }
+
+.banner_sub_section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1380px;
+  margin: 100px auto auto auto;
+  color: white;
+}
+.banner_sub_section p {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 0%;
+  font-style: normal;
+}
+
+.banner_sub_section  button{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 130%;
+  font-style: normal;
+
+  border-radius: 13px;
+  border: 1px solid #ffffff;
+  width: 235px;
+  height: 82px;
+  padding: 25px 40px;
+  border-radius: 13px;
+  border: 2px solid #ffffff;
+  margin: 5px;
+
+}
+
+.all_prom {
+  color: black;
+  background-color: white;
+ 
+}
+.more {
+  color: white;
+  background-color: transparent;
+   
+}
+

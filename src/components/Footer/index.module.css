@@ -1,0 +1,57 @@
+.network {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1380px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.contacts {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.tel_nummber {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 130%;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.inst_logo .whats_logo {
+  text-decoration: none;
+}
+.inst_title .whats_title {
+  margin: 0 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+}
+
+.adress {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+.city {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+}
+.working {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+}
+.hour {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+}

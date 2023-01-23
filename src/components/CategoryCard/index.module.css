@@ -1,0 +1,28 @@
+.categories_card {
+  text-decoration: none;
+  color: black;
+}
+.categories {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  
+}
+.categories p {
+  margin: 20px auto;
+  text-decoration: none;
+  padding: 20px;
+  
+}
+
+.categories img {
+  width: 320px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.title {
+  margin: 20px auto;
+}
