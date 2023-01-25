@@ -5,3 +5,8 @@
   row-gap: 38px;
   padding: 15px;
 }
+
+.categories_section {
+  max-width: 1380px;
+  margin: 19px auto;
+}

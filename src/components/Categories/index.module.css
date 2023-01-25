@@ -1,7 +1,7 @@
-.categories_container{
-margin: 50px 50px 450px 50px;
+.categories_container {
+  max-width: 1380px;
+  margin: 19px auto;
 }
-
 
 .categories_title {
   display: flex;
@@ -34,10 +34,10 @@ margin: 50px 50px 450px 50px;
 .categories_item {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  position: absolute;
-  height: 395px;
-  width: 97%;
+  height: 295px;
+  width: 100%;
   left: 30px;
   right: 30px;
-   gap: 32px;
+  gap: 32px;
+  margin-left: 50px;
 }

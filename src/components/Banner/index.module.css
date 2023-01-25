@@ -4,20 +4,28 @@
   justify-content: space-between;
   font-size: 80px;
   line-height: 130%;
+  max-width: 1380px;
+  margin: 19px auto;
+  
   }
 
 .banner_sub_section {
   display: flex;
   justify-content: space-between;
-  max-width: 1380px;
-  margin: 100px auto auto auto;
+  margin: 50px auto auto auto;
   color: white;
+  margin-left: 100px;
+  
 }
-.banner_sub_section p {
+.banner_sub_section h2{
   font-weight: 700;
-  font-size: 80px;
-  line-height: 0%;
-  font-style: normal;
+  font-size: 90px;
+  line-height: 130%;
+}
+.banner_sub_section h3{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
 }
 
 .banner_sub_section  button{
@@ -33,7 +41,7 @@
   padding: 25px 40px;
   border-radius: 13px;
   border: 2px solid #ffffff;
-  margin: 5px;
+  margin: 15px;
 
 }
 

@@ -31,8 +31,8 @@ export default function CartCard({ id, title, price, discont_price, image, count
         </div>
 
         <div className={s.right}>
-          <div className={s.price}>{discont_price * count}</div>
-          <div className={s.discont_price}>{price * count}</div>
+          <div className={s.price}>{(discont_price * count).toFixed(1)}</div>
+          <div className={s.discont_price}>{(price * count).toFixed(1)}</div>
         </div>
       </div>
     </div>

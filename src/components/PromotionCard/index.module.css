@@ -1,6 +1,8 @@
 .promotion_card {
   text-decoration: none;
   color: black;
+  max-width: 1380px;
+  margin: 19px auto;
 }
 .promotion {
   display: flex;
@@ -18,8 +20,8 @@
 }
 
 .promotion img {
-  width: 320px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 .title {

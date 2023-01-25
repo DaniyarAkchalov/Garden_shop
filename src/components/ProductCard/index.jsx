@@ -35,13 +35,13 @@ export default function ProductCard({
   return (
     <div className={s.products_card}>
       <div className={s.image}>
+        <Link to={link}>
+          <img src={img} alt={title} />
+        </Link>
         <button className={s.button} onClick={add_to_cart}>
           {" "}
           Add to cart
         </button>
-        <Link to={link}>
-          <img src={img} alt={title} />
-        </Link>
       </div>
 
       <div className={s.price_info}>

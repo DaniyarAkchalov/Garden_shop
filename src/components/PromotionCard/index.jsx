@@ -9,13 +9,13 @@ export default function PromotionCard({
   price,
   discont_price,
   }) {
-  const link = `../products_page/${id}`;
+  const link = `../products/${id}`;
   const discount = Math.round((1 - +discont_price / +price) * 100);
 
   const img = `http://localhost:3333${image}`;
 
   return (
-    <Link to={link} className={s.promotion_card}>
+    <Link to={link} className={s.promotion_card} id='promotion'>
       <div className={s.promotion}>
         <img src={img} alt={title} />
         <div className={s.price_text}>

@@ -1,6 +1,8 @@
 .cart_page {
   margin-top: 79px;
   margin-left: 31px;
+  max-width: 1380px;
+  margin: 19px auto;
 }
 
 .right {
@@ -114,12 +116,10 @@
 }
 
 .error {
+  display: grid;
   color: red;
   font-size: 25px;
-  position: absolute;
-  align-self: flex-end;
-  left: 1000px;
-  top: 670px;
+
 }
 
 .sum {

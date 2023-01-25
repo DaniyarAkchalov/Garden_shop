@@ -1,8 +1,8 @@
-.network {
+.footer_block{
   display: flex;
   justify-content: space-between;
   max-width: 1380px;
-  margin: 0 auto;
+  margin: 19px auto;
   font-size: 15px;
   font-weight: 400;
   padding: 20px;
@@ -23,6 +23,10 @@
 .social {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  width: 230px;
+  gap: 17px;
+  font-size: 500;
+  align-items: center;
 }
 .inst_logo .whats_logo {
   text-decoration: none;

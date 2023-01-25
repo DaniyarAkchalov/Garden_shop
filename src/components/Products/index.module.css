@@ -1,5 +1,7 @@
 .productions_container {
     margin: 40px 35px 55px 35px;
+    max-width: 1380px;
+    margin: 19px auto;
   }
   
   .productions_title {

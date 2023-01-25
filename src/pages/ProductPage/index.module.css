@@ -1,8 +1,7 @@
 .product_item {
-  margin-top: 226px;
-  margin-left: 29px;
-  max-width: 1721px;
   display: flex;
+  max-width: 1380px;
+  margin: 19px auto;
   gap: 128px;
 }
 
@@ -17,6 +16,7 @@
   font-size: 28px;
   line-height: 130%;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .border {
@@ -29,10 +29,6 @@
 .product_details {
   margin-top: 144px;
   max-width: 425px;
-}
-
-.product_details button {
-  cursor: pointer;
 }
 
 .title {

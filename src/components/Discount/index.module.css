@@ -3,6 +3,8 @@
   height: 475px;
   padding: 28px 0 28px 90px;
   background-color: #339933;
+  max-width: 1380px;
+  margin: 19px auto;
 }
 
 .info_block {

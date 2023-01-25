@@ -1,4 +1,4 @@
-const defaultState = [];
+const defaultState = {};
 
 const LOAD_PRODUCT = 'LOAD_PRODUCT';
 

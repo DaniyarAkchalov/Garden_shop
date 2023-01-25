@@ -6,7 +6,7 @@ import s from "./index.module.css";
 import { addToCart } from "../../store/reducers/cart";
 
 export default function ProductPage() {
-  const product = useSelector((state) => state.products);
+  const product = useSelector((state) => state.product);
   const dispatch = useDispatch();
   const { id } = useParams();
 
@@ -14,17 +14,16 @@ export default function ProductPage() {
 
   
   useEffect(() => {
-    load_product(id);
+    dispatch(load_product(id));
   }, []);
 
-  const discount = product.map((el) => {
-    return Math.round(((el.price - el.discont_price) / el.price) * 100);
-  });
+  const discount = Math.round(((product.price - product.discont_price) / product.price) * 100);
 
   const { title, description, discont_price, price, image } = product;
 
   const add_to_cart = () =>
     dispatch(addToCart({id: product_id, title, price, discont_price, image }));
+    
 
    const img = `http://localhost:3333${image}`;
 

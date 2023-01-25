@@ -8,10 +8,10 @@ export default function Banner() {
       <div className={s.banner_sub_section}>
         <div>
           <h2>Sale</h2>
-          <h2>the new season</h2>
+          <h3>the new season</h3>
           <div className={s.buttons}>
-            <button className={s.all_prom}>All promotions</button>
-            <button className={s.more}>More information</button>
+           <a href= '/#promotion'> <button className={s.all_prom}>All promotions</button></a>
+            <a href="/#promotion"><button className={s.more}>More information</button></a>
           </div>
         </div>
         <img className={s.banner} src={banner} alt="banner_img" />

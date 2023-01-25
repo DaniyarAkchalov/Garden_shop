@@ -1,5 +1,7 @@
 .cart_section {
     margin-bottom: 50px;
+    max-width: 1380px;
+    margin: 19px auto;
 }
 
 .container {

@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  max-width: 1380px;
+  margin: 19px auto;
 }
 .products_card img {
   width: 300px;
@@ -14,19 +16,28 @@
 .products_card a {
   text-decoration: none;
 }
-.button {
+.image button {
+  position:absolute;
+  bottom: 32px;
   color: #339933;
   border: 2px solid #339933;
   background-color: #f1fff1;
   border-radius: 21px;
   line-height: 130%;
-
   width: 279px;
   height: 72px;
   cursor: pointer;
+  display: none;
+  
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
 }
 
-.products_card:hover.button {
+.image:hover button {
   display: block;
 }
 .price_info {
@@ -34,7 +45,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  
 }
 
 .discont_price {
@@ -61,4 +71,11 @@
   font-weight: 500;
   line-height: 130%;
   color: #3a3a3a;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
 }

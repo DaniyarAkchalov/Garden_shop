@@ -18,9 +18,9 @@ export default function Products() {
       </div>
 
       <div className={s.productions_item}>
-        {
-        products.map((el, index) => index >=0 && index<= 2 ? <PromotionCard key={el.id} {...el} />: '')
-      }
+        {products.map((el, index) =>
+          index >= 0 && index <= 2 ? <PromotionCard key={el.id} {...el} /> : ""
+        )}
       </div>
     </div>
   );

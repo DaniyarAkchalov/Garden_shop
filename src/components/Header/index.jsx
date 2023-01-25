@@ -8,7 +8,9 @@ export default function Header() {
   return (
     <header className={s.header}>
       <div className={s.logo_block}>
-        <img src={logo} alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
         <Link to="/categories_page" className={s.catalog}>
           Catalog
         </Link>
@@ -19,9 +21,19 @@ export default function Header() {
           <Link to="/categories_page" className={s.category}>
             Category
           </Link>
-          <li>Coupon</li>
-          <Link to= '/products/all' className={s.sale}>Sale</Link>
-          <li>Contacts</li>
+          <li className={s.coupon}>
+            {" "}
+            <a href="/#discount">Coupon</a>
+          </li>
+          <li>
+            {" "}
+            <a href="/#promotion">Sale</a>
+          </li>
+
+          <li>
+            {" "}
+            <a href="/#footer"> Contacts </a>
+          </li>
           <Link to="/cart">
             <img src={shopping_bag} alt="shopping_bag" />
           </Link>

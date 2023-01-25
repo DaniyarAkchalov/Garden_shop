@@ -3,26 +3,19 @@
   color: black;
 }
 .categories {
+  display: grid;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 600;
   font-style: normal;
   line-height: 130%;
   letter-spacing: 0.03em;
-  
 }
 .categories p {
-  margin: 20px auto;
-  text-decoration: none;
-  padding: 20px;
-  
+  margin: 20px;
+  align-self: center;
 }
-
 .categories img {
-  width: 320px;
-  height: 350px;
-  object-fit: contain;
-}
-
-.title {
-  margin: 20px auto;
+  width: 200px;
+  height: 200px;
 }
